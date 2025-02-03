@@ -1,0 +1,121 @@
+@keyframes animazione-descrizione {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+ }
+
+
+.container{
+	height: auto;
+	width: 80vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+}
+
+.titolo {
+	font-size: 32px;
+	font-weight: bold;
+	color: orange;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: grey;
+	border-radius: 8px;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;
+	width: 100vh;
+ }
+ 
+.desc {
+	background-color: grey;
+	color: white;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	border-left: 5px solid orange;
+	font-size: 18px;
+ }
+ 
+ .desc:hover {
+	background-color: grey;
+	border-left-color: red;
+ }
+ 
+ .desc strong {
+	color: orange;
+ }
+ 
+ .bottone-home {
+	margin-top: 20px;
+	text-align: center;
+ }
+ .bottone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ }
+ .bottone-home{
+	background-color: orange;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+ }
+ 
+ .bottone-home:hover{
+	border: 1px solid green
+ }
+
+ .animazione{
+	opacity: 0;
+  animation-name: testo;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.delay-1 {
+	animation-delay: 0.2s;
+ }
+ 
+ .delay-2 {
+	animation-delay: 0.4s;
+ }
+ 
+ .delay-3 {
+	animation-delay: 0.6s;
+ }
+ 
+ .delay-4 {
+	animation-delay: 0.8s;
+ }
+ 
+ .delay-5 {
+	animation-delay: 1s;
+ }
+ 
+ .delay-6 {
+	animation-delay: 1.2s;
+ }
+ 
+ .delay-7 {
+	animation-delay: 1.4s;
+ }
+ 
+ .delay-8 {
+	animation-delay: 1.6s;
+ }
+
+ .delay-9 {
+	animation-delay: 1.8s;
+ }
+ .delay-10 {
+	animation-delay: 2s;
+ }

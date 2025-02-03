@@ -1,0 +1,32 @@
+.codice {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	color: darkgrey;
+	line-height: 1.6;
+ }
+ 
+ .spiegazione {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+ }
+
+ @keyframes testo {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+ }
+
+ .delay-1 {
+	animation-delay: 0.5s;
+ }
+ 
+ .delay-2 {
+	animation-delay: 1s;
+ }
+ 
+ .delay-3 {
+	animation-delay: 1.5s;
+ }

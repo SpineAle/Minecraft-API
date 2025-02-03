@@ -1,0 +1,103 @@
+body {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.ordinamento-pulsante {
+	padding: 10px;
+}
+
+.bottoni-alfa {
+	display: flex;
+	height: 90px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	background-color: wheat;
+	color: black;
+	cursor: pointer;
+}
+
+.blocchi-container {
+	display: flex;
+	gap: 45px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 150vh;
+}
+
+.blocco {
+	flex: 1 1 30%;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid cyan;
+	border-radius: 10%;
+	box-sizing: border-box;
+}
+
+.blocco img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.nome {
+	font-size: 20px;
+	font-weight: 100;
+	color: white;
+}
+
+.testo {
+	font-size: 13px;
+}
+
+.nTrasp {
+	border-right: 1px solid black;
+}
+
+ .ordinamento-pulsante:hover {
+	background-color: lightcyan;
+	cursor: pointer;
+ }
+ 
+
+ .input-resistenza {
+	width: 100%;
+	margin: 5px;
+	height: 8px;
+	border-radius: 5px;
+	background: #ccc;
+ }
+
+ .nome{
+	font-weight: bold;
+	color: orange;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: grey;
+	border-radius: 8px;
+	border-left: 5px solid orange;
+	border-right: 5px solid orange;
+	justify-content: space-between;
+ }
+
+ .nome:hover{
+	border-left: 5px solid red;
+	border-right: 5px solid red
+ }
+
+ .bottone-preferiti{
+	font-size: 25px;
+	background: none;
+	color: gold;
+	border: none;
+ }
+

@@ -1,0 +1,55 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: grey;
+	color: white;
+ }
+ 
+.navbar-logo {
+	display: flex;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo img {
+	height: 40px;
+	margin-right: 10px;
+}
+
+.testo {
+	font-size: 20px;
+	font-weight: bold;
+}
+ 
+.icone{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-right: 90px;
+	font-size:25px;
+	cursor: pointer;
+}
+.scritto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 5px;
+	font-size: 10px;
+	padding-right: 20px;
+}
+
+.casa:hover {
+	color: lightgreen;
+}
+.info:hover{
+	color: aquamarine;
+}
+.tabella:hover{
+	color:chocolate
+}
